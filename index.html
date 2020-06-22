@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+
+             /*For mobile phones*/
+             [class*="col-"] {
+
+                 width: 100%;
+             }
+            /*General Selector*/
+
+             *{
+
+                 margin: 0%;
+                 padding: 0%;
+                 text-decoration: none;
+                 list-style-type: none;
+                 box-sizing: border-box;
+             }
+            /* Navigation Menu Styles*/
+
+             #top-bar{
+
+                background-color: black;
+                display: flex;
+                flex-wrap: wrap;
+                
+            }
+
+             #menu-list li{
+
+                 padding: 20px;
+             }
+
+             #menu-list a{
+
+                 color: white;
+                 font-size: 17px;
+                 font-weight: 200;
+                 font-family: 'Courier New', Courier, monospace;
+                 padding: 5px;
+             }
+
+             #menu-list a:hover{
+
+                 color: rgb(16, 250, 8);
+             }
+
+             #menu-list li:hover{
+
+                 background-color: tomato;
+             }
+
+             #menu-list ul{
+
+                 display: flex;
+                 padding: 3px;
+                 flex-wrap: wrap;
+             }
+
+             #menu-list{
+                 margin-top: 7px;
+             }
+
+             /*Logo Image Styles*/
+
+             #logo{
+
+                 display: inline-block;
+                 margin: 5px 0 0 10px;
+                 flex: auto;
+
+             }
+
+             #logo-image{
+
+                 width: 70px;
+                 height: 70px;
+                 
+             }
+
+             /*Page content style*/
+
+             #page-content{
+
+                 margin: 0 10px 0 10px;
+             }
+
+             /*General Selector*/
+
+             body{ 
+
+                 background-color: lightgray;
+             }
+
+             /*Page container style*/
+
+             #page-cont{
+
+                margin: 0 0 30px 0;
+                padding: 2.50%;
+             }
+
+             #page-cont p{
+
+                 text-align: center;
+                 padding: 4%;
+                 font-size: 15px;
+                 color: rgb(199, 71, 161);
+                 font-weight: 100;
+                 font-family: 'Courier New', Courier, monospace;
+                 text-shadow: 2px 2px 2px black;
+                 opacity: 1px 1px black;
+             } 
+
+             #page-container{
+                 background-image: url("assests/image/background2.jpg");
+                 background-size: cover;
+                 background-position: top;
+                 padding: 8%;
+             }    
+ 
+             #page-cont h1{
+                 padding: 0.20%;
+                 text-align: center;
+                 color: blueviolet;
+                 font-size: 55px;
+                 font-family: 'Courier New', Courier, monospace;
+                 text-shadow: 2px 2px 2px black;
+             }
+
+
+             .content-1-page{
+
+                 background-color: white;
+                 padding: 4%;
+                 
+             }
+
+             #content-1-1-0{
+
+                 margin: 0 3px 3px 3px;
+                 display: flex;
+             }
+
+             #content-1-2-0{
+
+                 border: 0.40px rgb(17, 16, 16) solid;
+                 margin-bottom: 4%;
+                 margin-right: 4%;
+                 margin-left: 4%;
+                 height: 400px;
+                 box-shadow: black  4px 4px 9px;
+                 margin-top: 5%;
+             }
+
+             #content-1-2-0 h2{
+
+                  color: black;
+                  font-family: Georgia, 'Times New Roman', Times, serif;
+                  font-size: 17px;
+                  text-align: center;
+                  padding-top: 7%;
+             }
+
+
+             .content-1-2-0-p{
+
+                 color: black;
+                 font-size: 12px;
+                 font-weight: 100;
+                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                 padding-top: 9%;
+                 padding-bottom: 7%;
+                 text-align: center;
+                 padding-left: 9%;
+                 padding-right: 9%;
+             }
+        
+            /*images styles*/
+
+             #image-22{
+                 
+                 max-width: 100%;
+                 height: auto;
+                 padding: 9% 3% 0 18.60%;
+                 
+                 
+                 
+             }
+
+         
+             
+
+        </style>
+    </head>
+    <body>
+
+        <!-- Header Section -->
+        <section id="page-content">
+<div id="top-bar">
+    <div id="logo">
+    <img src="image/logo.png" id="logo-image">
+    </div>
+<div id="menu">
+    <div id="menu-list">
+       <ul>
+           <li><a href="#">Our Home</a></li>
+           <li><a href="#">About Us</a></li>
+           <li><a href="#content-1-page">Contact Us</a></li>
+           <li><a href="#">Download Now</a></li>
+       </ul>
+    </div>
+</div>
+</div>
+
+<!--Content Section-->
+
+<section id="page-container">
+    <div id="page-cont">
+        <h1>
+            Welcome To Jake Trade Service
+        </h1>
+        <p>
+       Jake trade brings you the best and most reliable website for all our users<br>
+              we are happy to have, once again welcome to the family
+        </p>
+    </div>
+</section>
+
+<!--Content-1 section-->
+<section class="content-1-page">
+    <div id="content-1-1-0">
+
+        <div id="content-1-2-0">
+           <img src="assests/image/background2.jpg" id="image-22">
+            <h2>
+                Secured And Reliable
+            </h2>
+            <p class="content-1-2-0-p"> We are the most reliable and most secured platform,
+                we take your safety and security to to the most automost pirority
+            </p>
+            
+        </div>
+
+         <div id="content-1-2-0">
+            <img src="assests/image/background2.jpg" id="image-22">
+             <h2>
+                 Secured And Reliable
+             </h2>
+             <p class="content-1-2-0-p"> We are the most reliable and most secured platform,
+                 we take your safety and security to to the most automost pirority
+             </p>
+
+        </div>
+
+        <div id="content-1-2-0">
+           <img src="assests/image/background2.jpg" id="image-22">
+            <h2>
+                Secured And Reliable
+            </h2>
+            <p class="content-1-2-0-p"> 
+                We are the most reliable and most secured platform,
+                we take your safety and security to to the most automost pirority
+            </p>
+            
+        </div>
+    </div>
+         
+</section>
+
+<!--Content-1 section-->
+
+<section></section>
+
+</section>
+
+<section></section>
+    </body>
+</html>
