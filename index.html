@@ -5,11 +5,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
 
-             /*For mobile phones*/
-             [class*="col-"] {
-
-                 width: 100%;
-             }
             /*General Selector*/
 
              *{
@@ -18,7 +13,6 @@
                  padding: 0%;
                  text-decoration: none;
                  list-style-type: none;
-                 box-sizing: border-box;
              }
             /* Navigation Menu Styles*/
 
@@ -184,13 +178,29 @@
 
              #image-22{
                  
-                 max-width: 100%;
+                 max-width: 60%;
                  height: auto;
-                 padding: 9% 3% 0 18.60%;
-                 
-                 
+                 padding: 9% 3% 0 19.60%;  
                  
              }
+
+             .abt-us{
+
+                 position: relative;
+             }
+
+             .abt-us-drop-menu{
+
+                 position: absolute;
+                 text-align: center;
+                 padding: 0 50px 0 50px;
+                 width: 150px;
+                 top: 65px;
+                 background-color: black;
+                 display: none;
+             }
+
+             
 
          
              
@@ -209,7 +219,14 @@
     <div id="menu-list">
        <ul>
            <li><a href="#">Our Home</a></li>
-           <li><a href="#">About Us</a></li>
+           <li class="abt-us">
+            <a href="#">About Us</a>
+             <ul class="abt-us-drop-menu">
+                <li><a href="#">menu1</a></li>
+                <li><a href="#">menu2</a></li>
+                <li><a href="#">menu3</a></li>
+                <li><a href="#">menu4</a></li>
+             </ul></li>
            <li><a href="#content-1-page">Contact Us</a></li>
            <li><a href="#">Download Now</a></li>
        </ul>
