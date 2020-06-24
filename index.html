@@ -5,6 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
 
+            /**/
+
             /*General Selector*/
 
              *{
@@ -48,7 +50,7 @@
                  background-color: tomato;
              }
 
-             #menu-list ul{
+             #men-ul-1{
 
                  display: flex;
                  padding: 3px;
@@ -189,15 +191,25 @@
                  position: relative;
              }
 
-             .abt-us-drop-menu{
+
+             .abt-us:hover #abt-us-drop-menu{
+
+                 display: block;
+             }
+
+             #abt-us-drop-menu{
 
                  position: absolute;
                  text-align: center;
-                 padding: 0 50px 0 50px;
-                 width: 150px;
+                 width: 160px;
                  top: 65px;
                  background-color: black;
                  display: none;
+             }
+
+             #abt-us-drop-menu li:hover{
+
+                 color: tomato;
              }
 
              /*Footer Css Styles*/
@@ -234,11 +246,11 @@
     </div>
 <div id="menu">
     <div id="menu-list">
-       <ul>
+       <ul id="men-ul-1">
            <li><a href="#">Our Home</a></li>
            <li class="abt-us">
             <a href="#">About Us</a>
-             <ul class="abt-us-drop-menu">
+             <ul id="abt-us-drop-menu">
                 <li><a href="#">menu1</a></li>
                 <li><a href="#">menu2</a></li>
                 <li><a href="#">menu3</a></li>
